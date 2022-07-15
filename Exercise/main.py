@@ -44,3 +44,17 @@ def show_stars(rows):
     for i in range (1,rows+1):
         print("*"*i)
 # show_stars(5)
+
+# 7. prime number
+def isPrime(number):
+    count=0
+    for i in range(1,number):
+        if number%i==0: count = count+1
+    if count==1: return True
+    else: return False
+# print(isPrime(7))
+def prime_numbers(limit):
+    for i in range(1,limit+1):
+        if isPrime(i):
+            print(i)
+# print(prime_numbers(5))
