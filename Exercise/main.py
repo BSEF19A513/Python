@@ -22,3 +22,10 @@ def speed_check(speed):
         if points>=12: print("License Suspended")
         else: print("Points:",points)
 # speed_check(77)
+
+# 4. Show Numbers
+def show_numbers(limit):
+    for i in range(limit+1):
+        if i%2==1: print(i,"ODD")
+        else: print(i,"Even")
+# show_numbers(4)
