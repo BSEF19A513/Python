@@ -29,3 +29,12 @@ def show_numbers(limit):
         if i%2==1: print(i,"ODD")
         else: print(i,"Even")
 # show_numbers(4)
+
+# 5. Sum of multiples
+def sum_of_multiples(limit):
+    sum=0;
+    for i in range(limit+1):
+        if i%3==0 or i%5==0:
+            sum=sum+i
+    return sum
+# print(sum_of_multiples(10))
