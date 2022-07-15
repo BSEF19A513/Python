@@ -38,3 +38,9 @@ def sum_of_multiples(limit):
             sum=sum+i
     return sum
 # print(sum_of_multiples(10))
+
+# 6. show_stars
+def show_stars(rows):
+    for i in range (1,rows+1):
+        print("*"*i)
+# show_stars(5)
