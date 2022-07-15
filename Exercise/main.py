@@ -12,3 +12,13 @@ def fizz_buzz(x):
     elif x%5==0: return "Buzz"
     else: return x
 # print(fizz_buzz(16))
+
+# 3. Speed checking function
+def speed_check(speed):
+    if speed<=70: print("Ok")
+    elif speed>70:
+        overSpeed = speed-70
+        points = math.floor(overSpeed/5);
+        if points>=12: print("License Suspended")
+        else: print("Points:",points)
+# speed_check(77)
