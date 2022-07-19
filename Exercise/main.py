@@ -1,5 +1,8 @@
 import math
 # 1. Max of two function
+import random
+
+
 def max (x,y):
     if x>=y: return x
     else: return y
@@ -58,3 +61,7 @@ def prime_numbers(limit):
         if isPrime(i):
             print(i)
 # print(prime_numbers(5))
+
+def roll():
+    print(f"({random.randint(1,6)},{random.randint(1,6)})")
+roll()
